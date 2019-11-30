@@ -4,25 +4,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import android.os.Bundle;
-import android.text.Layout;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-public class CustomRadioButtonActivity extends AppCompatActivity {
+public class DynamicRadioButtonActivity extends AppCompatActivity {
     RadioGroup rg;
     ConstraintLayout rl;
     RadioButton rb1,rb2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_custom_radio_button);
+        setContentView(R.layout.activity_dynamic_radio_button);
         rg = new RadioGroup(this);
         rl = (ConstraintLayout) findViewById(R.id.ConstraintLayout);
         rb1 = new RadioButton(this);
         rb2 = new RadioButton(this);
-
         rb1.setText("Male");
         rb2.setText("Female");
         rg.addView(rb1);
