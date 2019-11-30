@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10sp"
+    android:paddingLeft="15sp"
+    android:paddingRight="20sp"
+    android:paddingTop="25sp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/simplebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@drawable/book" />
+
+    <ImageView
+        android:id="@+id/simplecicular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:scaleType="fitXY"
+        android:src="@drawable/circular" />
+
+</RelativeLayout>
