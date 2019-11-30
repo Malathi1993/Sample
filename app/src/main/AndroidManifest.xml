@@ -11,12 +11,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HidetitleBarActivity">
+        <activity android:name=".ButtonActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".HidetitleBarActivity">
         </activity>
         <activity android:name=".CheckBoxActivity" />
         <activity android:name=".practiceb.PracticebActivity" />
@@ -24,7 +26,7 @@
         <activity android:name=".practicee.PracticeeActivity" />
         <activity android:name=".practicea.PracticeaActivity" />
         <activity android:name=".practicec.ToggleBackgroundActivity" />
-        <activity android:name=".practicef.OrientationActivity"></activity> <!-- <activity android:name=".ImageViewActivity"></activity> -->
+        <activity android:name=".practicef.OrientationActivity" /> <!-- <activity android:name=".ImageViewActivity"></activity> -->
         <!-- <activity android:name=".ToggleButtonActivity"> -->
         <!-- <intent-filter> -->
         <!-- <action android:name="android.intent.action.MAIN" /> -->
