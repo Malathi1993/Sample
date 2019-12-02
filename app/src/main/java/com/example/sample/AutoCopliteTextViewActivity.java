@@ -11,7 +11,8 @@ public class AutoCopliteTextViewActivity extends AppCompatActivity {
     String[] language ={"C","C++","Java",".NET","iPhone","Android","ASP.NET","PHP"};
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auto_coplite_text_view);
         //Creating the instance of ArrayAdapter containing list of language names
