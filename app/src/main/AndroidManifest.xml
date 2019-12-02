@@ -11,14 +11,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RatingBarActivity">
+        <activity android:name=".WebViewActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AutoCopliteTextViewActivity"></activity>
+        <activity android:name=".RatingBarActivity"></activity>
+        <activity android:name=".AutoCopliteTextViewActivity" />
         <activity android:name=".SpinnerExActivity" />
         <activity android:name=".DynamicRadioButtonActivity" />
         <activity android:name=".RadioButtonActivity" />
