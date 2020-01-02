@@ -4,4 +4,5 @@
     <string name="home_fragment">Home Fragment</string>
     <string name="sport_fragment">Sport Fragment</string>
     <string name="movie_fragment">Movie Fragment</string>
-</resources>
+    <string name="compose_email">Compose Email</string>
+    </resources>

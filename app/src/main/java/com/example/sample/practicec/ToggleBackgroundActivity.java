@@ -21,10 +21,6 @@ public class ToggleBackgroundActivity extends AppCompatActivity implements View.
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
-
         setContentView(R.layout.activity_practice_constrain);
 
         containerLayout = findViewById(R.id.content_layout1);
